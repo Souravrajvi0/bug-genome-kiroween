@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+
+# Build output
+dist/
+build/
+.next/
+coverage/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.log
+
+# NOTE: Do NOT ignore .kiro/. Kiroween requires it in the repo.
