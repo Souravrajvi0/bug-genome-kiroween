@@ -17,9 +17,18 @@ build/
 .next/
 coverage/
 
+# Test and tooling output
+test-results/
+playwright-report/
+*.tsbuildinfo
+next-env.d.ts
+
 # OS and editor
 .DS_Store
 Thumbs.db
 *.log
 
 # NOTE: Do NOT ignore .kiro/. Kiroween requires it in the repo.
+
+# Local screenshots and throwaway scripts
+.scratch/

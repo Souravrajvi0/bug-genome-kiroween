@@ -1,0 +1,33 @@
+{
+  "name": "bug-genome",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bug Genome: Genome Atlas (Version A). Illustrative mock data only.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "cytoscape": "^3.35.0",
+    "next": "^16.4.6",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "fast-check": "^4.10.3",
+    "typescript": "~5.9.3",
+    "vitest": "^5.1.1"
+  }
+}
